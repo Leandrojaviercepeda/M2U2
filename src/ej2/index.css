@@ -1,5 +1,6 @@
 .content {
     display: flex;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
 }
@@ -7,12 +8,14 @@
 .container {
     border: 1px solid black;
     display: flex;
-    justify-content: flex-end;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
 }
 
-.col {
-    flex-direction: column;
+.row {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .item {
