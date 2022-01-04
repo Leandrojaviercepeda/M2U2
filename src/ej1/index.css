@@ -1,0 +1,43 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.item {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+}
+
+.item:first-child {
+    background-color: red;
+}
+
+.item:nth-child(even) {
+    background-color: blue;
+}
+
+.item:last-child{
+    background-color: green;
+}
+
